@@ -16,4 +16,5 @@
          Using the -Scope Process parameter specifies that the autosave settings apply only to the current process. Disabling autosave in this context means that any changes to the Azure context during the current PowerShell session will not be automatically saved.
 
 2. **Connect to Azure with system-assigned managed identity**
+   
    `$AzureContext = (Connect-AzAccount -Identity).context`
